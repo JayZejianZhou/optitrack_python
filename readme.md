@@ -3,6 +3,9 @@
     - NatnetSDK 4.3.0
     - Motive 3.1.2
 
-Known problems,:
+### Known problems:
     If finding libNatNet.so fails, add the following to the code
-    ctypes.CDLL("path/libNatNet.so", mode=ctypes.RTLD_GLOBAL)
+
+```Python
+ctypes.CDLL("path/libNatNet.so", mode=ctypes.RTLD_GLOBAL)
+```
