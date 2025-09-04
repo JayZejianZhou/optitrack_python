@@ -1,6 +1,7 @@
-Tested on the following system
-    Ubuntu 24.04.3 LTS
-    NatnetSDK 4.3.0
+### Tested on the following system
+    - Ubuntu 24.04.3 LTS
+    - NatnetSDK 4.3.0
+    - Motive 3.1.2
 
 Known problems,:
     If finding libNatNet.so fails, add the following to the code
